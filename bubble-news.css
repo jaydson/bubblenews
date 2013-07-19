@@ -1,0 +1,118 @@
+html,
+body,
+#bubbles { height: 100% }
+body { overflow: hidden }
+#bubbles { padding: 100px 0 }
+.bubble {
+    width: 200px;
+    height: 200px;
+    background: #ffb200;
+    border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    position: absolute;
+}
+img {
+	border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    padding: 5px;
+}
+
+.x1 {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.5;
+    -webkit-animation: moveDown 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: moveDown 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -o-animation: moveDown 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+}
+
+.paused {
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused; 
+    animation-play-state:paused;
+}
+
+@-webkit-keyframes moveDown { 
+    0% { 
+        top: 500px;
+    }
+    100% { 
+        top: -500px;
+    }
+}
+
+@-webkit-keyframes moveUp {
+    0% { 
+        top: -500px;
+    }
+    100% { 
+        top: 500px;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:150px;
+    }
+}
+
+@-moz-keyframes moveDown {     
+    0% { 
+        top: 500px;
+    }
+
+    100% { 
+        top: -500px;
+    }
+}
+
+@-moz-keyframes moveUp {
+    0% { 
+        top: -500px;
+    }
+    100% { 
+        top: 500px;
+    }
+}
+
+@-moz-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+@-o-keyframes moveDown {
+    0% { 
+        top: 500px;
+    }
+    100% { 
+        top: -500px;
+    }
+}
+
+@-o-keyframes moveUp {
+    0% { 
+        top: -500px;
+    }
+    100% { 
+        top: 500px;
+    }
+}
+
+@-o-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
