@@ -12,21 +12,24 @@ body { overflow: hidden }
     -webkit-border-radius: 200px;
     position: absolute;
 }
+
+#layer {
+	background: #000;
+	opacity: 0.9;
+	position: absolute;
+	display: none;
+	color: #fff;
+	overflow: auto;
+	font-size: 1.3em;
+	padding: 8px;
+	margin: 8px;
+}
+
 img {
 	border-radius: 200px;
     -moz-border-radius: 200px;
     -webkit-border-radius: 200px;
     padding: 5px;
-}
-
-.x1 {
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    transform: scale(0.9);
-    opacity: 0.5;
-    -webkit-animation: moveDown 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
-    -moz-animation: moveDown 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
-    -o-animation: moveDown 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
 }
 
 .paused {
