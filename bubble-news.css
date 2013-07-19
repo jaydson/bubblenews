@@ -15,14 +15,27 @@ body { overflow: hidden }
 
 #layer {
 	background: #000;
-	opacity: 0.9;
+	opacity: 0.7;
 	position: absolute;
 	display: none;
 	color: #fff;
 	overflow: auto;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	padding: 8px;
 	margin: 8px;
+}
+
+#news_title {
+	color: red;
+	text-transform: italic; 
+}
+
+#close {
+	margin-bottom: 4px;
+	text-align: center;
+	font-size: 1.1em;
+	color: #000;
+	background: #ccc;
 }
 
 img {
