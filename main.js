@@ -59,8 +59,7 @@
 				title = document.querySelector('#news_title'),
 				container = document.querySelector('#news_container');
 			container.innerHTML = settings.content;
-			title.innerHTML = settings.title;
-			elem.style.width = width;
+			title.innerHTML = settings.title;			
 			elem.style.height = height;
 			elem.style.display = 'block';
 			elem.style.zIndex = this.zIndex + 1;

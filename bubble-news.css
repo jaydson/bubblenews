@@ -20,14 +20,19 @@ body { overflow: hidden }
 	display: none;
 	color: #fff;
 	overflow: auto;
-	font-size: 1.1em;
+	font-size: 1.6em;
 	padding: 8px;
-	margin: 8px;
+	top: 50px;
+	left: 0px;
 }
 
 #news_title {
 	color: red;
 	text-transform: italic; 
+}
+
+#news_container {
+	margin-bottom: 85px;
 }
 
 #close {
