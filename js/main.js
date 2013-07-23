@@ -29,6 +29,42 @@
 					title : 'Dubai condena à prisão norueguesa que denunciou estupro',
 					content : 'Um tribunal de Dubai, nos Emirados Árabes Unidos, condenou uma empresária norueguesa a 16 meses de prisão por ter relações sexuais fora do casamento após ela denunciar ter sido estuprada, informa o jornal americano USA Today, que cita agênciade notícias árabes. Marte Deborah Dalelv, que teria entre 24 e 25 anos, foi condenada na quarta-feira. Ela também foi considerada culpada de perjúrio e por ter ingerido bebidas alcóolicas, o que é proibido neste país islâmico. ',
 					img : 'http://p2.trrsf.com.br/image/fget/cf/301/401/images.terra.com/2013/07/19/norueguesa-condenada-dubai-afp.jpg'
+				},
+				{
+					id : 5,
+					title : 'Suspeito de assassinar irmã de Belfort é detido no Rio nesta segunda',
+					content : 'Na tarde desta segunda-feira, agentes da Superintendência de Inteligência do Sistema Penitenciário (Sispen) do Rio de Janeiro prenderam, em parceria com a 21ª Promotoria de Investigação Penal (PIP), Leonardo Luiz Batista, também conhecido como "Aranha" ou "Léo Bicudo". Suspeito de participar do sequestro e morte da irmã do lutador Vitor Belfort, Priscila Belfort, ele acabou detido no bairro de Vila Isabel, na zona norte do Rio.',
+					img : 'http://p2.trrsf.com.br/image/fget/cf/407/305/images.terra.com/2013/07/22/priscilabelfortfrentejoaopauloengelbrechtajbfp.jpg'
+				},
+				{
+					id : 6,
+					title : 'Boeing 737 aterrissa sem trem de pouso dianteiro em Nova York',
+					content : 'Um avião Boeing 737 da companhia Southwest fez um pouso de emergência no aeroporto La Guardia, em Nova York. A aeronave teve um problema com o trem de pouso dianteiro, segundo a imprensa local. Imagens mostram o avião fora da pista e com o bico encostado no chão. Os passageiros descem utilizando as rampas de emergência.',
+					img : 'http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/22/nyaviaobicoaeroportoap.jpg'
+				},
+				{
+					id : 7,
+					title : 'Visita do Papa terá beijaço gay e desbatismo ateu no Rio de Janeiro',
+					content : 'O primeiro dia da visita do papa Francisco ao Brasil deve motivar protestos no Rio de Janeiro e em outras capitais. O primeiro ato é um beijaço organizado por entidades de defesa dos direitos da comunidade LGBT (Lésbicas, Gays, Travestis e Transexuais). O evento tem concentração marcada para as 14h desta segunda-feira, no Largo do Machado, na capital fluminense, e deve seguir em marcha até o Palácio Guanabara às 17h, local onde será realizada a cerimônia de boas-vindas ao Pontífice.',
+					img : 'http://p2.trrsf.com.br/image/fget/cf/301/401/images.terra.com/2013/07/22/desbatismopublicoprotestopapafacebookrep.jpg'
+				},
+				{
+					id : 8,
+					title : 'Sul do país registra primeira neve do ano nesta segunda-feira',
+					content : 'A cidade de São Joaquim, na serra catarinense, registrou a primeira ocorrência de neve por volta das 4h30 desta segunda-feira. O fenômeno voltou a ocorrer pela manhã. Segundo a Epagri/Ciram, também nevou em outros municípios catarinenses, como Lages, São Miguel do Oeste, Pinhalzinho, Chapecó e Xanxerê.',
+					img : 'http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/22/scnevesaojoaquimfrioinvernosaojoaquimonlineesp.jpg'
+				},
+				{
+					id : 9,
+					title : 'Papa Francisco viaja ao RJ em sua primeira visita ao Brasil',
+					content : 'Eduardo Paes beija a mão do Papa em sua chegada ao Palácio Guanabara.',
+					img : 'http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/23/rjpapapalacioguanabarabethsantosdiv11.jpg'
+				},
+				{
+					id : 10,
+					title : 'Visita do Papa tem protesto contra Cabral e Igreja Católica',
+					content : 'Policial é engolido por bola de fogo após ser atingido por coquetel Molotov',
+					img : 'http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/23/rjpolicialbolafogoap.jpg'
 				}
 			];
 		};
@@ -112,6 +148,7 @@
 		this.generate = function () {
 			var i = 0,
 			news = this.getNews();
+			console.log(news);
 			for (i; i < news.length; i ++) {				
 				this.createBubble(news[i]);
 			}
