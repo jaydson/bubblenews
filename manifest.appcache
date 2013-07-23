@@ -1,11 +1,13 @@
 CACHE MANIFEST
-# Version 0.6799999
+# Version 1.6799999111
 
 index.html
 css/base.css
+css/bubble-news.css
 js/base.js
 js/webapp.js
 js/offline.js
+js/main.js
 
 NETWORK:
 *
