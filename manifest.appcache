@@ -1,13 +1,80 @@
 CACHE MANIFEST
-# Version 91.6799999111
 
-index.html
+#version 1.0 7-25-2013:115
+
+CACHE:
+
+#images
+http://p2.trrsf.com.br/image/fget/cf/2205/1653/6/21/407/305/images.terra.com/2013/07/19/fifa-giliard01.jpg
+http://p2.trrsf.com.br/image/fget/cf/301/401/images.terra.com/2013/07/19/norueguesa-condenada-dubai-afp.jpg
+http://p2.trrsf.com.br/image/fget/cf/301/401/images.terra.com/2013/07/22/desbatismopublicoprotestopapafacebookrep.jpg
+http://p2.trrsf.com.br/image/fget/cf/308/464/images.terra.com/2013/07/17/brunamarquezineneymartvglobodiv.jpg
+http://p2.trrsf.com.br/image/fget/cf/407/305/images.terra.com/2013/07/22/priscilabelfortfrentejoaopauloengelbrechtajbfp.jpg
+http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/19/nicoleminetti8rts.jpg
+http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/22/nyaviaobicoaeroportoap.jpg
+http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/22/scnevesaojoaquimfrioinvernosaojoaquimonlineesp.jpg
+http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/23/rjpapapalacioguanabarabethsantosdiv11.jpg
+http://p2.trrsf.com.br/image/fget/cf/619/464/images.terra.com/2013/07/23/rjpolicialbolafogoap.jpg
+
+#internal HTML documents
+
+
+#style sheets
 css/base.css
 css/bubble-news.css
+css/buttons.css
+css/headers.css
+css/toolbars.css
+
+#style sheet images
+images/buttons/icons/dialog.png
+images/buttons/icons/view.png
+images/buttons/ui/danger-disabled.png
+images/buttons/ui/danger-press.png
+images/buttons/ui/danger.png
+images/buttons/ui/default.png
+images/buttons/ui/disabled.png
+images/buttons/ui/recommend.png
+images/buttons/ui/shadow.png
+images/headers/icons/add.png
+images/headers/icons/back-rtl.png
+images/headers/icons/back.png
+images/headers/icons/clear.png
+images/headers/icons/close.png
+images/headers/icons/compose.png
+images/headers/icons/edit.png
+images/headers/icons/menu.png
+images/headers/icons/reply-all.png
+images/headers/icons/reply.png
+images/headers/icons/send.png
+images/headers/icons/user.png
+images/headers/ui/dark/header.png
+images/headers/ui/dark/negative.png
+images/headers/ui/dark/separator.png
+images/headers/ui/dark/subheader.png
+images/headers/ui/header.png
+images/headers/ui/negative.png
+images/headers/ui/organic/header.png
+images/headers/ui/organic/negative.png
+images/headers/ui/organic/separator.png
+images/headers/ui/organic/subheader.png
+images/headers/ui/separator-large.png
+images/headers/ui/separator.png
+images/headers/ui/shadow.png
+images/headers/ui/subheader.png
+images/toolbars/icons/update.png
+
+#javascript files
 js/base.js
 js/webapp.js
 js/offline.js
 js/main.js
+
+#fonts
+fonts/KlavikaRegular.woff
+fonts/moztt_medium-webfont.woff
+fonts/moztt_light-webfont.woff
+fonts/moztt_regular-webfont.woff
 
 NETWORK:
 *
